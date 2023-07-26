@@ -3,7 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import contactImg from "../assets/img/contact-img.png";
 
 export const Contact = () => {
-  const API_URL = "http://localhost:5000/contact";
+  const API_URL = "https://marion-lpz.vercel.app/contact";
 
   const formInitialDetails = {
     firstName: "",
