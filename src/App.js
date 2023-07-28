@@ -5,7 +5,7 @@ import { Banner } from "./components/Banner";
 import { About } from "./components/About";
 import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
-import { Contact } from "./components/Contact";
+import { Contact2 } from "./components/Contact2";
 import { Footer } from "./components/Footer";
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
       <About />
       <Skills />
       <Projects />
-      <Contact />
+      <Contact2 />
       <Footer />
     </div>
   );

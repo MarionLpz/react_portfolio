@@ -1,11 +1,8 @@
 import { Nav, Tab, Col, Container, Row } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import colorSharp2 from "../assets/img/color-sharp2.png";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
-import background from "../assets/img/background.png";
-import TrackVisibility from "react-on-screen";
 
 export const Projects = () => {
   const projects = [
@@ -36,7 +33,7 @@ export const Projects = () => {
     },
   ];
   return (
-    <section className="project" id="project">
+    <section className="project" id="projects">
       <Container>
         <Row>
           <Col>

@@ -314,7 +314,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ About Css ************/
 .about {
-  padding: 80px 0;
+  margin: 50px 0;
   position: relative;
 }
 .about h2 {
@@ -379,15 +379,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   flex-direction: column;
   flex-wrap: wrap;
 }
-.skill {
-  padding: 0 0 50px 0;
+.skills {
+  margin-top: 50px;
+  margin-bottom: 30px;
   position: relative;
 }
 .skill-bx {
   border-radius: 64px;
   text-align: center;
   padding: 50px 50px;
-  margin-top: -60px;
   background-color: #262626;
   opacity: 1;
   background-color: #424141;
@@ -403,7 +403,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 55px;
 }
-.skill h2 {
+.skills h2 {
   font-size: 45px;
   font-weight: 700;
 }
@@ -444,7 +444,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects Css ************/
 .project {
-  padding: 80px 0;
+  padding-top: 50px;
+  margin-bottom: 50px;
   position: relative;
 }
 .project h2 {
