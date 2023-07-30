@@ -34,7 +34,7 @@ export const Contact2 = () => {
             <img src={contactImg} alt="Contactez-moi" />
           </Col>
           <Col md={6}>
-            <h2>Contact</h2>
+            <h2>Contactez-moi ! 💌</h2>
             <form ref={form} onSubmit={sendEmail}>
               <Row>
                 <Col sm={6} className="px-1">

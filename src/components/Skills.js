@@ -7,7 +7,7 @@ export const Skills = () => {
         <div className="row" id="skill-row">
           <div className="col-9">
             <div className="skill-bx">
-              <h2>Compétences</h2>
+              <h2>Compétences 🚀</h2>
               <ul>
                 <li className="li-skills"> HTML/CSS/JS</li>
                 <li className="li-skills"> ReactJS </li>
