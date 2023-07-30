@@ -84,6 +84,20 @@ select:focus {
     padding: 0 150px;
   }
 }
+@media (min-width: 375px) {
+  h2 {
+    font-size: 25px !important;
+  }
+  h4 {
+    font-size: 18px !important;
+  }
+  .project .nav.nav-pills .nav-link {
+    font-size: 12px !important;
+  }
+  nav.navbar .navbar-nav .nav-link.navbar-link {
+    font-size: 12px !important;
+  }
+}
 
 p.success {
   color: green;
@@ -113,7 +127,7 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   color: #fff !important;
   letter-spacing: 0.8px;
   padding: 0 25px;
-  font-size: 18px;
+  font-size: 17px;
   opacity: 0.75;
 }
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
@@ -167,7 +181,7 @@ span.navbar-text {
   color: #fff;
   border: 1px solid #fff;
   padding: 18px 34px;
-  font-size: 18px;
+  font-size: 15px;
   margin-left: 18px;
   position: relative;
   background-color: transparent;
@@ -215,7 +229,7 @@ nav.navbar .navbar-toggler-icon:focus {
 }
 nav.navbar .navbar-toggler-icon:after,
 nav.navbar .navbar-toggler-icon:before {
-  width: 24px;
+  width: 20px;
   position: absolute;
   height: 2px;
   background-color: #fff;
@@ -390,7 +404,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill-bx {
   border-radius: 64px;
   text-align: center;
-  padding: 30px 100px;
+  padding: 30px 50px;
   background-color: #262626;
   opacity: 1;
   background-color: #424141;
@@ -681,7 +695,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 14px;
   color: #b8b8b8;
   letter-spacing: 0.5px;
-  margin-top: 40px;
+  margin: 40px;
 }
 .footer a {
   font-weight: 400;
