@@ -31,7 +31,7 @@ export const Contact2 = () => {
       <Container>
         <Row className="align-items-center">
           <Col md={6}>
-            <img src={contactImg} alt="Contact me" />
+            <img src={contactImg} alt="Contactez-moi" />
           </Col>
           <Col md={6}>
             <h2>Contact</h2>
@@ -43,7 +43,7 @@ export const Contact2 = () => {
                 <Col sm={6} className="px-1">
                   <input type="email" name="email" placeholder="Email" />
                 </Col>
-                <Col>
+                <Col className="px-1">
                   <textarea rows="6" name="message" placeholder="Message" />
                   <button type="submit">
                     <span>Envoyer</span>

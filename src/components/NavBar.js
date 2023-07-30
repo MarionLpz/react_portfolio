@@ -77,10 +77,10 @@ export const NavBar = () => {
                   href="https://www.linkedin.com/in/marion-lopez-/"
                   target="_blank"
                 >
-                  <img src={navIcon1} alt="" />
+                  <img src={navIcon1} alt="Lien linkedin" />
                 </a>
                 <a href="https://github.com/MarionLpz" target="_blank">
-                  <img src={navIcon3} alt="" />
+                  <img src={navIcon3} alt="Lien Github" />
                 </a>
                 <a href="/doc/cvml.pdf" download="CV-MarionLopez-dev.pdf">
                   <img src={navIcon4} alt="Télécharger mon CV" />

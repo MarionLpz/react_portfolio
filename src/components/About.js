@@ -29,6 +29,14 @@ export const About = () => {
               <span>Télécharger mon CV</span>
             </a>
           </button>
+          <button className="vvd">
+            <a
+              href="https://calendly.com/marion-fautrard-lopez/45min?month=2023-07"
+              target="_blank"
+            >
+              <span>Programmer un échange</span>
+            </a>
+          </button>
         </div>
       </p>
     </section>
