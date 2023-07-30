@@ -411,8 +411,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 2;
 }
 .skills h4 {
-  padding-top: 15px;
-  padding-bottom: 10px;
+  font-size: 20px;
   color: #b8b8b8;
 }
 .skills-txt {
