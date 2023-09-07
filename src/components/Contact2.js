@@ -1,11 +1,13 @@
+//composant contact -> email-js
 import React, { useRef } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import contactImg from "../assets/img/contact-img.png";
 import emailjs from "emailjs-com";
 
 export const Contact2 = () => {
-  console.log(process.env);
+  //Accès au formulaire pour collecter les données
   const form = useRef();
+  //à la soumission du formulaire  -> requete post à l'API
   const sendEmail = (e) => {
     e.preventDefault();
 

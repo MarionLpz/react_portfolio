@@ -22,6 +22,7 @@ export const Banner = () => {
     };
   }, [text]);
 
+  //gère la rotation du texte
   const tick = () => {
     let i = loopNum % toRotate.length;
     let fullText = toRotate[i];

@@ -33,6 +33,7 @@ export const About = () => {
             <a
               href="https://calendly.com/marion-fautrard-lopez/45min?month=2023-07"
               target="_blank"
+              rel="noreferrer"
             >
               <span>Programmer un échange</span>
             </a>

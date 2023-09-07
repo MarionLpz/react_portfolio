@@ -36,9 +36,11 @@ export const NavBar = () => {
           <Navbar.Brand href="/">
             <img src={logo} alt="Logo" style={{ width: "190%" }} />
           </Navbar.Brand>
+          {/* RESPONSIVE Création d'un bouton de bascule  */}
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
           </Navbar.Toggle>
+          {/* RESPONSIVE menu associé au bouton */}
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <Nav.Link
@@ -76,10 +78,15 @@ export const NavBar = () => {
                 <a
                   href="https://www.linkedin.com/in/marion-lopez-/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <img src={navIcon1} alt="Lien linkedin" />
                 </a>
-                <a href="https://github.com/MarionLpz" target="_blank">
+                <a
+                  href="https://github.com/MarionLpz"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img src={navIcon3} alt="Lien Github" />
                 </a>
                 <a href="/doc/cvml.pdf" download="CV-MarionLopez-dev.pdf">

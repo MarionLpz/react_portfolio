@@ -1,3 +1,4 @@
+//composant initial
 import { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import contactImg from "../assets/img/contact-img.png";
@@ -17,6 +18,7 @@ export const Contact = () => {
   const [buttonText, setButtonText] = useState("Envoyer");
   const [status, setStatus] = useState({});
 
+  //update des champs du formulaire
   const onFormUpdate = (category, value) => {
     setFormDetails({
       ...formDetails,
@@ -24,6 +26,7 @@ export const Contact = () => {
     });
   };
 
+  //à la soumission du formulaire  -> requete post à l'API
   const handleSubmit = async (e) => {
     e.preventDefault();
     setButtonText("Sending...");
