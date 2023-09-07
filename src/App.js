@@ -5,10 +5,17 @@ import { Banner } from "./components/Banner";
 import { About } from "./components/About";
 import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
-import { Contact2 } from "./components/Contact2";
+// import { Contact2 } from "./components/Contact2";
+import { ContactUpdated } from "./components/ContactUpdated";
 import { Footer } from "./components/Footer";
+import { useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+    fetch("/api")
+      .then((res) => res.json())
+      .then((data) => console.log(data));
+  }, []);
   return (
     <div className="App">
       <NavBar />
@@ -16,7 +23,7 @@ function App() {
       <About />
       <Skills />
       <Projects />
-      <Contact2 />
+      <ContactUpdated />
       <Footer />
     </div>
   );
