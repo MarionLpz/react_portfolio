@@ -1,5 +1,4 @@
 //run with $ node server/index.js
-const path = require("path");
 const express = require("express");
 const cors = require("cors");
 const nodemailer = require("nodemailer");
@@ -11,6 +10,7 @@ const PORT = process.env.PORT || 3001;
 const app = express();
 app.use(cors());
 app.use(bodyParser.json());
+// app.use(express.json());
 
 app.get("/api", (req, res) => {
   res.json({ message: "Hello from serveur" });
@@ -26,7 +26,7 @@ const contactEmail = nodemailer.createTransport({
 
 contactEmail.verify((error) => {
   if (error) {
-    console.log("error : l'email n'a pas été envoyé");
+    console.log(error, "error : l'email n'a pas été envoyé");
   } else {
     console.log("Prêt à envoyer un email");
   }
@@ -36,7 +36,8 @@ app.post(
   "/api/contact",
   bodyParser.urlencoded({ extended: false }),
   (req, res) => {
-    const name = req.body.firstName + req.body.lastName;
+    console.log(req.body);
+    const name = req.body.firstName + " " + req.body.lastName;
     const email = req.body.email;
     const message = req.body.message;
     const phone = req.body.phone;
