@@ -3,6 +3,7 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
+import projImg4 from "../assets/img/project-img4.png";
 
 export const Projects = () => {
   const projects = [
@@ -30,6 +31,13 @@ export const Projects = () => {
       lienGit:
         "https://github.com/MarionLpz/Side-projects/tree/main/PunchlinesV1",
       imgUrl: projImg3,
+    },
+    {
+      title: "Surfing Away",
+      description: "Une app mobile qui surfe sur la vague.",
+      stack: "React Native, Express, MongoDB",
+      lienGit: "https://github.com/MarionLpz/Mobile-front-Surfingaway",
+      imgUrl: projImg4,
     },
   ];
   return (
